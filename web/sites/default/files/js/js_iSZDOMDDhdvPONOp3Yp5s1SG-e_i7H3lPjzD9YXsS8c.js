@@ -4979,7 +4979,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
             settings.aoColumns.unshift({"bSortable": false});
           }
 
-          var datatable = $(selector).DataTable(settings);
+          var datatable = $(selector).dataTable(settings);
 
           if (settings.bExpandable) {
             // Add column headers to table settings.
