@@ -22,6 +22,15 @@
             settings.aoColumns.unshift({"bSortable": false});
           }
 
+          // Need to implement this setting in php web form
+          settings.bExcludeBlankRows = true;
+
+          if (settings.bExcludeBlankRows) {
+            $(`${selector} tr`).each(function () {
+              if (!$.trim($(this).text())) $(this).remove();
+            });
+          }
+
           var datatable = $(selector).dataTable(settings);
 
           if (settings.bExpandable) {
