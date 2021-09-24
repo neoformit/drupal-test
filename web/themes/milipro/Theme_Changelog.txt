@@ -1,0 +1,95 @@
++===============================+
+Version 8.1.0
+20 April, 2019
++===============================+
+# Initial version
+
+
+
+
++===============================+
+Version 8.1.1
+11 May, 2019
++===============================+
+# Added sticky header.
+# Fixed many display issues in mobile devices.
+
+
+
++===============================+
+Version 8.2.1
+05 June, 2019
++===============================+
+# Fixed sticky header jerk issue.
+# Added Iconmoster font icons.
+# Added FontAwesome font icons.
+# Added more options for homepage slider.
+# Fixed third level drop down menu.
+# Removed sticky header from mobile devices.
+# More color options.
+# New options for slider settings.
+# Added font size shortcodes.
+# Added font color shortcodes.
+# Added Accordion shortcode.
+# Added Banner shortcodes.
+# Added more button styles shortcodes.
+# Added 'call to action' shortcodes.
+# Added new column shortcode.
+# Added Divider shortcodes.
+# Added Image Gallery shortcode.
+# Added Icon box shortcodes.
+# Added Popup shortcode.
+# Added new message shortcodes.
+# Added Tab shortcode.
+# Added Testimonials shortcode.
+# Added Text box shortcode.
+# Added new social icon vk.com, telegram.
+
+
++===============================+
+Version 8.2.2
+15 Dec, 2019
++===============================+
+# Removed Google material font enabled by default. User can now enable this from theme settings.
+# Fixed minor knows bugs.
+
+
++===============================+
+Version 8.2.3
+06 Apr, 2020
++===============================+
+# Added vimeo social icon.
+# Fixed known bugs.
+
+
++===============================+
+Version 8.3.0
+26 Nov, 2020
++===============================+
+# Compatible with Drupal 9.x.x also.
+# Removed Google+ from node sharing.
+
+
++===============================+
+Version 8.4.0
+17 Feb, 2021
++===============================+
+# New flex based layout for header.
+# New grid based layout for main and sidebar.
+# New flex and grid based layout for footer.
+# Homepage slider in mobile view now uses full screen height.
+# Removed color option for footer background. Footer background will set to Theme base color.
+# Added sass files.
+# Added option to show sidebar on homepage.
+# Added FontAwesome 5 font icons. Enable / disable from theme settings.
+# Theme color now defined using css variables.
+
+
++===============================+
+Version 8.4.1
+16 April, 2021
++===============================+
+# Fixed minor known bugs.
+# Added option to insert codes in head and body.
+# Updated Google material font icons to version 4.0.0
+# Added 3 types of homepage slider to select.

@@ -1,0 +1,371 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  body {
+    -webkit-text-size-adjust: none; /* none for no scaling */
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    -webkit-text-size-adjust: none; /* none for no scaling */
+  }
+}
+/* Standard mobile phones */
+@media only screen and (max-width: 414px) {
+  /* layout -> Container. */
+  .container {
+    width: 100%;
+    max-width: 414px;
+    padding: 0 4px;
+  }
+
+  /* comment */
+  .comment-form-wrap {
+    padding: 6px;
+  }
+}
+/* Large screen mobile phones 1 */
+@media only screen and (max-width: 575px)  {
+  ul.page-tabs li {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+/* Large screen mobile phones 2 */
+@media only screen and (min-width: 415px) and (max-width: 767px) {
+  /* layout -> Container */
+  .container {
+    width: 100%;
+    max-width: 767px;
+    padding: 0 4px;
+  }
+  /* Header */
+  .header-main {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* Body */
+  body {
+    font-size: 0.9em;
+  }
+  /* Typohraphy */
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  h5 {
+    font-size: 1.1em;
+  }
+  h6 {
+    font-size: 1em;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="search"] {
+    width: 100%;
+  }
+  /* Layout */
+  .no-sidebar .main-container,
+  .sidebar-left .main-container,
+  .sidebar-right .main-container,
+  .two-sidebar .main-container {
+    grid-template-columns: 100%;
+  }
+  #sidebar-left {
+    order: 3;
+    padding: 0;
+  }
+  #sidebar-right {
+    order: 4;
+    padding: 0;
+  }
+  .full,
+  .one_half,
+  .one-half,
+  .one_three,
+  .one-three,
+  .one_four,
+  .one-four,
+  .one_four_first,
+  .one_four_last,
+  .two-three,
+  .service,
+  .feature,
+  .project {
+    position: relative;
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  /* Header */
+  .homepage .header,
+  .site-page .header {
+    padding: 0 0 6px 0;
+  }
+  .header-main {
+    padding: 0;
+  }
+  .site-logo img {
+    max-height: 24px;
+  }
+  .search-icon .material-icons,
+  .sliding-panel-icon .material-icons {
+    font-size: 14px;
+  }
+  .header-right i {
+    padding: 4px;
+  }
+  /* Slider */
+  .slider-img,
+  .slider-img img {
+    height: 100%;
+    width: 100%;
+  }
+  .slider-img img {
+    display: block;
+    object-fit: cover;
+  }
+  .slider h1,
+  .slider h2 {
+  	margin: 0;
+    font-size: 1.2em;
+  }
+  .slider h3 {
+  	margin: 0;
+    font-size: 1em;
+  }
+  .slider p {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .slider a.button {
+    padding: 4px 10px;
+  }
+  .search-box-content .block {
+    width: 90%;
+  }
+  /* Header -> menu */
+  .main-menu {
+    display: none;
+  }
+  .mobile-menu,
+  .active-menu .main-menu {
+    display: block;
+  }
+  .mobile-menu {
+    float: right;
+  }
+  .menu-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: -1000px;
+    background: transparent;
+    z-index: 30;
+    transition: all 0.4s ease;
+  }
+  .active-menu .menu-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 30;
+    transition: all 0.4s ease;
+  }
+  .active-menu .menu-wrap ul.main-menu,
+  ul.main-menu {
+    overflow-y: scroll;
+  }
+  ul.main-menu {
+    height: 100vh;
+  }
+  .active-menu .menu-wrap ul.main-menu > li {
+    display: block;
+    float: none;
+  }
+  .active-menu .menu-wrap ul.main-menu a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+  .active-menu .menu-wrap .dropdown-arrow {
+    position: absolute;
+    right: 10px;
+  }
+  .active-menu ul.main-menu ul.submenu {
+    position: relative;
+    display: block;
+    top: 0;
+    opacity: 1;
+  }
+  .active-menu ul.main-menu ul.submenu::before,
+  .active-menu ul.main-menu ul.submenu::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .active-menu ul.main-menu ul.submenu li {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    text-align: right;
+  }
+  .active-menu ul.main-menu ul.submenu li a {
+    display: block;
+    width: 100%;
+  }
+  .active-menu ul.main-menu li a {
+    border-bottom: 1px solid #434343;
+  }
+  .active-menu .close-mobile-menu {
+    position: absolute;
+    display: block;
+    top: 4px;
+    right: 4px;
+  }
+  /* third level drop down */
+.active-menu ul.main-menu ul.submenu ul.submenu {
+  position: relative;
+  display: block;
+  opacity: 1;
+  left: 0;
+}
+.active-menu ul.main-menu ul.submenu ul.submenu li {
+  position: relative;
+  background: none;
+  width: 100%;
+  text-align: right;
+  padding: 0 10px;
+}
+.active-menu ul.main-menu ul.submenu li.expanded::after {
+  position: absolute;
+  top: 8px;
+}
+  /* Inner page header */
+  .breadcrumb {
+    padding: 2px 0;
+  }
+  .breadcrumb-item-seperator {
+    margin: 0 2px;
+  }
+  /* Footer */
+  .social-icons {
+    text-align: center;
+  }
+  .footer-bottom-section {
+    grid-template-columns: 100%;
+  }
+  /* custom content */
+  .width50,
+  .width60,
+  .width70,
+  .width80 {
+    width: 100%;
+  }
+  /* Drupal core */
+  .align-left,
+  .align-right {
+    float: none;
+    clear: both;
+    margin: 20px auto;
+  }
+  /* Slider */
+  .home-slider p {
+    width: 100%;
+  }
+  /* comment */
+  .comment-user-picture {
+    padding: 0 3px;
+    flex: 0 0 50px;
+  }
+  .comment-user-picture img {
+    max-width: 50px;
+  }
+  .single-comment-content-body {
+    padding: 0 5px;
+  }
+  #node-comment .indented {
+    margin-left: 20px;
+  }
+  /* Elements */
+  .banner .banner-message {
+    padding: 0 10px;
+  }
+  .call-to-action {
+    padding: 10px;
+  }
+  .call-to-action .one-half, .call-to-action .one-three, .call-to-action .two-three, .call-to-action .one-four {
+    display: block;
+    text-align: center;
+  }
+  .owl-item.center .item {
+    margin: 0 auto;
+  }
+  .popup-content {
+    width: 100%;
+  }
+  ul.tabs li a {
+    padding: 6px 8px;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+/* iPad pro, Tablets
+------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    max-width: 991px;
+  }
+  .site-brand {
+    width: 100%;
+    display: table-row;
+    text-align: center;
+  }
+  .header-right {
+    width: 100%;
+    display: table-row;
+  }
+  .primary-menu-wrapper {
+    float: left;
+  }
+}
+
+/* Medium Devices, Laptop, Desktop
+------------------------------------------------- */
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+  .container {
+    width: 100%;
+    max-width: 1170px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-blocks {
+    grid-auto-flow: column;
+  }
+}
+/* Screen widger than container
+------------------------------------------------- */
+@media screen and (min-width: 1170px) {
+  .container {
+    width: 100%;
+    max-width: 1170px;
+  }
+}

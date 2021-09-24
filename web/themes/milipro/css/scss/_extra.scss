@@ -1,0 +1,49 @@
+/*
+ * CLearing
+ */
+.full::before,
+.full::after,
+.container::before,
+.container::after,
+.section::before,
+.section::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Clearing -> main. */
+#main-wrapper::before,
+#main-wrapper::after,
+.features::before,
+.services::before,
+.features::after,
+.services::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+ 
+/* Clearing -> home */
+.home-content .block::before,
+.home-content .block::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+ 
+/* Clearing -> Node contents */
+.node-view-mode-full::before,
+.node-view-mode-full::after,
+.node-header::before,
+.node-header::after,
+.node-taxonomy-container::before,
+.node-taxonomy-container::after,
+.node-links-container::before,
+.node-links-container::after,
+nav.pager::before, nav.pager::after,
+.share-node::before,
+.share-node::after {
+  content: "";
+  display: table;
+  clear: both;
+}
